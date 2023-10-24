@@ -2,6 +2,8 @@
 
 Realized basic CRUD
 
+all important data in config file
+
 have migration that load random 20 peoples for testing functional
 
 ### CreateUser() POST method (v1/user/)
