@@ -8,15 +8,17 @@ have migration that load random 20 peoples for testing functional
 
 ### CreateUser() POST method (v1/user/)
 #### Take format from postman like 
+```json
 {
   name:"name"
   surname:"surname"
   patronymic:"patronymic"
 }
-
+```
 ### GetUsers() GET method that output all users from DB (v1/user/all)
 
 ### UpdateUser() PUT method (v1/user/:id)
+```json
 {
   name:"name"
   surname:"surname"
@@ -25,7 +27,7 @@ have migration that load random 20 peoples for testing functional
   sex:"sex"
   nationality:nationality"
 }
-
+```
 ### DeleteUser() DELETE method that delete user by its id (v1/user:id)
 
 ### Enhance from API take from GET method where (v1/user/:id)
