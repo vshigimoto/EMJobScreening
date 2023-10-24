@@ -26,7 +26,7 @@ have migration that load random 20 peoples for testing functional
   nationality:nationality"
 }
 
-### DeleteUser() Delete method that delete user by its id (v1/user:id)
+### DeleteUser() DELETE method that delete user by its id (v1/user:id)
 
 ### Enhance from API take from GET method where (v1/user/:id)
 #### Need to choose id person that need to enhance from API and taken result
