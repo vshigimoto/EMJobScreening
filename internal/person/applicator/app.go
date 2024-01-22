@@ -8,7 +8,7 @@ import (
 	"go-jun/internal/person/database"
 	"go-jun/internal/person/repository"
 	"go-jun/internal/person/server/http"
-	"go-jun/internal/usecase"
+	"go-jun/internal/person/usecase"
 	"go.uber.org/zap"
 	"os"
 	"os/signal"

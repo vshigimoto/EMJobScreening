@@ -3,7 +3,7 @@ package http
 import (
 	"github.com/gin-gonic/gin"
 	"go-jun/internal/person/config"
-	"go-jun/internal/usecase"
+	"go-jun/internal/person/usecase"
 	"go.uber.org/zap"
 )
 
