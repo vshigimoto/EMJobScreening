@@ -1,0 +1,16 @@
+version: '3'
+services:
+  personDB:
+    image: postgres:latest
+    container_name: personDB
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: personapi
+    ports:
+      - "5432:5432"
+    volumes:
+      - personDB:/personDB
+
+volumes:
+  personDB:
