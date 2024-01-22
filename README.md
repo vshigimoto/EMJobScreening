@@ -1,4 +1,4 @@
-# Techinal task for junior position
+# Technical task for go developer
 
 #### Recommendation for local development most comfortable usage:
     make local // run DB container
